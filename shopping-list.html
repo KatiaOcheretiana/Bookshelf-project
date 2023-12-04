@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/Bookshelf-project/assets/apple-touch-icon-4afebeb8.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAA9tJREFUWEftl8tPXHUUx7/f39wZaCiUtpQ3mLTWlpbBByxENvgIiiUzpUlJNCYmbl26Mi5aNa79H+xSE17SJo1RXEhjZBaFgfiIVgqUmUKhIqV05t77NZfnzHQgxcCsejd38/ud8znfc8/J9xI5eDqCk29b0m890do/M9Nxv/N3BKeafbS65bKtL1o2klOAjrrJk8YfGCB0Ui6fzylA6NRsJfLsfoIveVXnFODi2ckjCZ//GwCvbkj+xAAXz0QDy77qArpLtT6ZIi+AbTBnEpjNt+YXvx6vT+z03bQ1xArywa8IXUg9tyPAZchEzsTqYDFMsJ1y6wQWkDJrQegAeihgHC6+A0z3Yknp+OAg7dQkra2yiu7FvyTxoXdpO4Dz9bdP9ERr/gIottfHTwQMLgHqBHDwCadiSUKvbezPrt6s/n3tjkwoePcTQpdBrINvRdtSQCYcjEUF3nDALxgOzvwCsikzsQARWIBogSoA4HscjlOu3znVH6lc7myIlbqAN+dZi0gFCDXEJwlUQhhmuCGm9cCCEAMxIPKacc2EQ2dexlhw7UID8xyF10CeA1SxKrGw9JAovz5S/uDNutmKfL8zmR00dQpkNgG8ICkAdw0Q7B4pmwPoZm+FTOfp6cNuwBoDULanAALu9I2U1WyffHOgtirYSwWeAjxVYD8VkHQ7Safl2kj11OrC2tgDqWO4XwACp42ccM9oZWRzY+YMQJxx4b7TP1rxY8pSzpUCvCMHXX1jZT+lL7UctEDArHF9XT3RY4OPb9R9BhAwJwfv9o+Vf7/dOt+3jzDP79x0XXV9G63IUnmWVb6XU3D+hYViOSuv9I5WXN3ZU+xTC9ZHjJ7L+d8AyeV/j6PwYJHfYbOEcgMdF80KXMRd2VMJn+/nQ/bc/YRVcgtrhmLTD3hJGzHsL32xqtiyTQukGkNWidj+fnoLtExxSEQjwUJAVnoltAUtQBom0QrwwAbAoaUHVqKg4JzA90C9TMAzsxkOKsv9DEPyhHYw7dgyXHwg4iMQTZ7+uw3CcEPcBpTp9+YAzEC8v97bo6sOiPDeaWZXgEMgTS1JCyQ9r/cPxSSowwBKIZRkGlaGgjMTJGslrQD4QeQVJ+kO/c35mfH1f4Dm6skDxcWqtBBoNcQFUG8ADGSwJCAOSrxi8OiGk2fNeGbVO9P+7B95gfwjpS4SzYZ8H8TrAPIETDN0Nt4CgxDAgcXRY0ODSPf6mZI2Ng77qx4900Y6n4JoXHPkiEi+S9N5E9cjkabkTm1Yu1/TCrpvAerddc82gneenjrqBPyfQ7J8Sfvj7l+r7+22/975/wDEMhe3F52ZwQAAAABJRU5ErkJggg=="
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAdtJREFUOE/Nk71rk2EUxc953nwV1FRJSNAsERFtTcQiOOgmUsQ0AaEu9U9wM5biUhSqSPW/cBOxpDh0KEKdo0Wjg0uXEpNaJZHamI/3OfI2vCVFl2w+6+H+7j3nPpcY8uUz1Rm1sbL85fi2V8ph6nPZ2lUHWJZlulRJ1A8ApscqoVYvGg85Eesw9v3FZ3YG4bnstwkH7iqAUVkm9wG5bHXCwBQJXAM4CsirawBa7Smw+PpjvDyVraUNuAYo5YkeQLRnXNdpspCp/QQRAvBWwCf2bY0DuALA3QwmRlOd+kMQc/5EHgDAbVLzLGRrEnC/9CH5eHDkQqY2B+jBZih56ER7a4FG9/4CGD3tAyyLpUri2SAgf65+l7SP/j+AoDfd3Z3rwciROxzagrhGZ7ewtJ5u7FkcBgDqsnHCN5bWjza8rIYCpNr1mwy0VrzOftAHAC402+22n4fNyEkS+u22NiLBkRnILnhbKJfRmzy7nYwEdQpW7r4OLe6tEYB3GFEAwX4HdQQ2CUSt3FtkoEjo0j/0OPOZry0QO5R5aaF3FA2MLhIoAIgJEKUfEF9Zo/dGxhVxntA0gMPMj21dMKHghh+O73HqdDXGsHnifW3btrP++fr65HjzWMD8Sv8BDJstduxGtdAAAAAASUVORK5CYII="
+    />
+    <link rel="manifest" href="data:application/manifest+json;base64,ewogICJuYW1lIjogIkJvb2tzaGVsZiIsCiAgInNob3J0X25hbWUiOiAiQm9va3MiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICIuL2FuZHJvaWQtY2hyb21lLTE5MngxOTIucG5nIiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICB9LAogICAgewogICAgICAic3JjIjogIi4vYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLAogICAgICAic2l6ZXMiOiAiNTEyeDUxMiIsCiAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgIH0KICBdLAogICJ0aGVtZV9jb2xvciI6ICIjZmZmZmZmIiwKICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIgp9Cg==" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Shopping List</title>
+    
+    <script type="module" crossorigin src="/Bookshelf-project/assets/shopping-list-4a87ae1a.js"></script>
+    <link rel="modulepreload" crossorigin href="/Bookshelf-project/assets/modal-local-storage-0a4c78ad.js">
+    <link rel="stylesheet" href="/Bookshelf-project/assets/modal-local-storage-bfe15fcb.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="btn-up btn-up_hide"></div>
+<section class="header">
+  <div class="container header-container">
+    <div class="box-logo">
+      <a href="./index.html" class="logo">
+        <svg class="logo-icon" width="24" height="24">
+          <use href="/Bookshelf-project/assets/symbol-defs-c8f30ebc.svg#icon-site-logo"></use>
+        </svg>
+        <span class="logo-name"><strong>Bookshelf</strong></span>
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./index.html" class="had-nav-link had-home"
+              ><strong class="hed-text">home</strong></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./shopping-list.html" class="had-nav-link had-shop current"
+              ><strong class="hed-text">shopping list</strong>
+              <svg class="shopping-icon" width="20" height="20">
+                <use href="/Bookshelf-project/assets/symbol-defs-c8f30ebc.svg#icon-shopping"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="box-burger">
+      <label class="toggle-theme common-toggle">
+        <input
+          id="slider"
+          type="checkbox"
+          class="toggle__input js-toggle"
+          aria-label="toggle dark mode"
+        />
+        <span class="check"></span>
+      </label>
+
+      <button id="openBurger" class="header-burger active">
+        <svg class="burger-icon" width="28" height="28">
+          <use href="/Bookshelf-project/assets/symbol-defs-c8f30ebc.svg#icon-burger"></use>
+        </svg></button
+      ><button id="closeBurger" class="header-close">
+        <svg class="burger-icon" width="28" height="28">
+          <use href="/Bookshelf-project/assets/symbol-defs-c8f30ebc.svg#icon-x-close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<div id="overlay" class="header-burger-menu overlay">
+  <div class="overlay-content">
+    <ul class="header-list">
+      <li>
+        <a href="./index.html" class="header-link"
+          ><strong class="shoping-menu-text hed-text">home</strong></a
+        >
+      </li>
+      <li>
+        <a href="./shopping-list.html" class="burger-shop-list current-burger"
+          ><strong class="hed-text">shopping list</strong>
+
+          <svg class="shopping-icon-burger-current" width="20" height="20">
+            <use href="/Bookshelf-project/assets/symbol-defs-c8f30ebc.svg#icon-shopping"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <img
+      class="burger-img"
+      srcset="/Bookshelf-project/assets/burger-1x-1619a24e.png 1x, /Bookshelf-project/assets/burger-2x-f5ce7601.png 2x"
+      src="/Bookshelf-project/assets/burger-1x-1619a24e.png"
+      alt="books"
+      height="370"
+    />
+  </div>
+</div>
+
+<div class="btn-up btn-up_hide"></div>
+<div class="btn-bottom btn-bottom_hide"></div>
+
+
+    <main>
+      <div class="support-and-busket-container">
+        <!-- Support Ukraine -->
+        <div class="fonds-container container">
+  <div class="flex-fonds-list">
+    <div class="flex-fonds-title">
+      <h2 class="title-Ukr">Support Ukraine</h2>
+      <svg class="support-svg" width="20" height="32">
+        <use href="/Bookshelf-project/assets/symbol-defs-c8f30ebc.svg#icon-ukraine"></use>
+      </svg>
+    </div>
+
+    <div class="slider-container">
+      <ul id="fonds-list" class="support-container"></ul>
+    </div>
+    <div class="supp-scroll-btn">
+      <button type="button" class="supp-btn" aria-label="Next">
+        <svg class="supp-arrow" width="20" height="20">
+          <use href="/Bookshelf-project/assets/symbol-defs-c8f30ebc.svg#icon-arrow"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+
+        <!-- Basket -->
+        <section class="shopping-list-section">
+  <div class="shopping-container container">
+    <div>
+      <h1 class="shopping-hero-title">
+        Shopping <span class="shopping-hero-text">List</span>
+      </h1>
+
+      <ul class="shopping-list-container" id="scrollArea"></ul>
+      <div class="js-guard"></div>
+    </div>
+  </div>
+</section>
+
+
+        <!-- Mobile-menu -->
+        <!-- <div id="overlay" class="header-burger-menu overlay">
+  <div class="overlay-content">
+    <ul class="header-list">
+      <li>
+        <a href="./index.html" class="header-link current-burger"
+          ><strong class="burger-text hed-text">home</strong></a
+        >
+      </li>
+      <li>
+        <a href="./shopping-list.html" class="burger-shop-list"
+          ><strong class="shoping-menu-text hed-text">shopping list</strong>
+
+          <svg class="shopping-icon-burger" width="20" height="20">
+            <use href="./img/icons/symbol-defs.svg#icon-shopping"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <img
+      class="burger-img"
+      srcset="./img/images/burger-1x.png 1x, ./img/images/burger-2x.png 2x"
+      src="./img/images/burger-1x.png"
+      alt="books"
+      height="370"
+    />
+  </div>
+</div>
+ -->
+      </div>
+    </main>
+
+    
+  </body>
+</html>
