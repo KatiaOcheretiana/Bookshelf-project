@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Bookkeepers-Project/",
+    "build": "vite build --base=/Bookshelf-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
