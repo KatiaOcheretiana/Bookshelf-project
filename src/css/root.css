@@ -1,0 +1,104 @@
+:root {
+  /*не меняются*/
+  --black-color: #111; /*чёрный*/
+  --white-color: #fff; /*белый*/
+
+  --grey-background-color: #f6f6f6; /*серый фон*/
+  --grey-text-color: #b4afaf; /*серый текст*/
+  --violet-color: #4f2ee8; /*фиол*/
+  --yellow-color: #eac645; /*жолный*/
+  /* --support-ukraine-background: radial-gradient(
+    189.32% 190.93% at 59.76% -23.42%,
+    #4f2ee8 18.03%,
+    #fff 100%
+  );
+  --support-ukraine-box-shadow: rgba(245, 245, 247, 0.1); */
+  --shopping-list-box-book-border: rgba(79, 46, 232, 0.4);
+  --pop-up-background: rgba(17, 17, 17, 0.4);
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*меняются->*/
+
+.light {
+  /*тема светлая-:>*/
+  /*1*/
+  --rep-black: #111;
+  /*2*/
+  --rep-white: #fff;
+  /*3*/
+  --rep-color-background: #f6f6f6;
+  /*4*/
+  --rep-category-text: rgba(17, 17, 17, 0.6);
+  --rep-category-scrol: #e0e0e0;
+  /*5*/
+  --rep-category-text-activ: #4f2ee8;
+  /*6*/
+  --rep-shopping-list-empty: rgba(0, 0, 0, 0.6);
+  /*7*/
+  --rep-pop-up-background: #fff;
+  /*8*/
+  --rep-pop-up-text-activated-batton: rgba(17, 17, 17, 0.5);
+  --rep-pop-up-amazon: grayscale(100%);
+  --rep-x-focus: #4f2ee8;
+}
+
+.dark {
+  /*тема тёмная-:>*/
+  /*1*/
+  --rep-black: #fff;
+  /*2*/
+  --rep-white: #111;
+  /*3*/
+  --rep-color-background: #202024;
+  /*4*/
+  --rep-category-text: rgba(255, 255, 255, 0.6);
+  --rep-category-scrol: rgba(17, 17, 17, 0.6);
+  /*5*/
+  --rep-category-text-activ: #eac645;
+  /*6*/
+  --rep-shopping-list-empty: rgba(255, 255, 255, 0.6);
+  /*7*/
+  --rep-pop-up-background: #202024;
+  /*8*/
+  --rep-pop-up-text-activated-batton: rgba(255, 255, 255, 0.5);
+  --rep-pop-up-amazon: brightness(0) invert(1);
+  --rep-x-focus: #eac645;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--rep-black);
+  background-color: var(--rep-color-background);
+}
+
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

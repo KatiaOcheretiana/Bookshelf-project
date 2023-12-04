@@ -1,0 +1,337 @@
+.shopping-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.shopping-hero-title {
+  color: var(--title-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: -1.28px;
+}
+
+.shopping-support-container {
+  display: none;
+  width: 356px;
+  height: 447px;
+  background-color: var(--violet-color);
+  border-radius: 16px;
+}
+
+.shopping-hero-text {
+  color: var(--violet-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: -1.28px;
+}
+
+.shopping-list-container {
+  margin-top: 40px;
+}
+.shopping-item {
+  position: relative;
+  max-width: 335px;
+  margin-bottom: 20px;
+}
+
+.shopping-list-item {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--rep-white);
+  max-width: 335px;
+  height: 170px;
+  padding: 14px;
+
+  border-radius: 16px;
+  border: 2px solid var(--shopping-list-box-book-border);
+}
+
+.shopping-book-img {
+  border-radius: 8px;
+  background: lightgray;
+}
+
+.shopping-item-container {
+  margin-left: 14px;
+}
+
+.shopping-book-title {
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.13;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 144px; /* Adjust the max-width as needed */
+
+  margin-bottom: 4px;
+}
+
+.shopping-book-category-text {
+  color: var(--grey-text-color);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.36px;
+
+  margin-bottom: 8px;
+}
+.shopping-book-description {
+  color: var(--title-color);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+  margin-bottom: 16px;
+  max-width: 193px;
+  height: 57px;
+
+  overflow: hidden;
+}
+
+.shopping-book-author {
+  color: var(--grey-text-color);
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.17;
+  letter-spacing: -0.48px;
+  width: 140px;
+}
+
+.shopping-delete-btn {
+  background-color: var(--violet-color);
+
+  width: 28px;
+  height: 28px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  transition: box-shadow var(--transition);
+}
+
+.shopping-delete-btn:hover,
+.shopping-delete-btn:focus {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.shopping-delete-btn-icon {
+  stroke: white;
+  pointer-events: none;
+}
+
+.shopping-link-wrap {
+  display: flex;
+  align-items: end;
+  gap: 8px;
+
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+}
+
+.shopping-link {
+  transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.shopping-link:hover,
+.shopping-link:focus {
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.35));
+  filter: grayscale(0%);
+}
+.picture-amazon {
+  filter: var(--rep-pop-up-amazon);
+}
+.picture-book {
+  filter: grayscale(100%);
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sub ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.shopping-error-wrap {
+  list-style: none;
+}
+
+.shopping-error-text {
+  color: var(--rep-shopping-list-empty);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 14px;
+  width: 244px;
+  text-align: center;
+}
+
+.shopping-error-item {
+  display: flex;
+}
+
+.shopping-error-img {
+  margin: 0 auto;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~Media 768 ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (min-width: 768px) {
+  .shopping-hero-title {
+    font-size: 48px;
+    line-height: 1.08;
+    letter-spacing: -1.92px;
+  }
+
+  .shopping-hero-text {
+    font-size: 48px;
+    line-height: 1.08;
+    letter-spacing: -1.92px;
+  }
+
+  .shopping-item {
+    max-width: 704px;
+  }
+
+  .shopping-list-item {
+    display: flex;
+    max-width: 708px;
+    height: 213px;
+    padding: 24px;
+  }
+
+  .shopping-book-img {
+    width: 116px;
+    height: 165px;
+  }
+
+  .shopping-book-overlay {
+    height: 165px;
+    width: 116px;
+  }
+
+  .shopping-book-overlay-text {
+    width: 116px;
+    height: 40px;
+    padding: 0px 32px;
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.56px;
+  }
+
+  .shopping-item-container {
+    margin-left: 24px;
+  }
+
+  .shopping-book-title {
+    max-width: 500px; /* Adjust the max-width as needed */
+  }
+
+  .shopping-book-category-text {
+    margin-bottom: 14px;
+  }
+  .shopping-book-description {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    max-width: none;
+    letter-spacing: -0.56px;
+
+    margin-bottom: 35px;
+    max-width: 508px;
+    height: 53px;
+  }
+  .shopping-book-author {
+    color: #b4afaf;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.48px;
+    width: 400px;
+  }
+
+  .shopping-delete-btn {
+    width: 34px;
+    height: 34px;
+
+    right: 24px;
+    top: 24px;
+  }
+
+  .shopping-delete-btn-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .shopping-link-wrap {
+    gap: 16px;
+    align-items: center;
+
+    bottom: 24px;
+    right: 24px;
+  }
+
+  .shopping-img-amazon {
+    width: 48px;
+    height: 15px;
+  }
+
+  .shopping-img-book {
+    width: 28px;
+    height: 27px;
+  }
+
+  .shopping-error-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+
+    width: 349px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 140px;
+  }
+
+  .shopping-error-img {
+    width: 322px;
+    height: 241px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ Media 1440 ~~~~~~~~~~~~~~~~~~~~~~ */
+
+@media screen and (min-width: 1440px) {
+  .shopping-item {
+    min-width: 996px;
+  }
+  .shopping-list-item {
+    max-width: 996px;
+  }
+
+  .shopping-book-description {
+    max-width: 808px;
+  }
+  .support-container {
+    display: block;
+  }
+  .shopping-container {
+    display: flex;
+    gap: 40px;
+  }
+
+  .shopping-error-wrap {
+    margin-left: 315px;
+  }
+}

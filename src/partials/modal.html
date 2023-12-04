@@ -1,0 +1,106 @@
+<section class="modal-section visually-hidden">
+  <div class="modal-container">
+    <button>
+      <svg class="modal-icon-x-close" width="24" height="24">
+        <use href="./img/icons/symbol-defs.svg#icon-x-close"></use>
+      </svg>
+    </button>
+
+    <div class="vse">
+      <div class="containerImg"></div>
+      <div class="continerTextLink">
+        <div class="modal-information"></div>
+        <div class="modal-links">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            class="modal-amazon-link"
+          >
+            <picture>
+              <source
+                srcset="
+                  ./img/images/amazon-1x.png 1x,
+                  ./img/images/amazon-2x.png 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="
+                  ./img/images/amazon-1x.png 1x,
+                  ./img/images/amazon-2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/images/amazon-1x.png 1x,
+                  ./img/images/amazon-2x.png 2x
+                "
+                media="(max-width: 768px)"
+              />
+              <img
+                class="amazon"
+                src="./img/images/amazon-1x.png"
+                alt="amazon"
+                width="62"
+                height="19"
+              />
+            </picture>
+          </a>
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            class="modal-applebook-link"
+          >
+            <picture>
+              <source
+                srcset="
+                  ./img/images/book-1x.png 1x,
+                  ./img/images/book-2x.png 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="
+                  ./img/images/book-1x.png 1x,
+                  ./img/images/book-2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/images/book-1x.png 1x,
+                  ./img/images/book-2x.png 2x
+                "
+                media="(max-width: 768px)"
+              />
+              <img
+                class="modal-img-book"
+                src="./img/images/book-1x.png"
+                alt="book"
+                width="32"
+                height="32"
+              />
+            </picture>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="add-to-shopping-list">
+      <button class="modal-btn-books add-btn">add to shopping list</button>
+      <button class="modal-btn-books remove-btn visually-hidden">
+        remove from the shopping list
+      </button>
+
+      <div class="modal-tex-meseg">
+        <p class="modal-message visually-hidden">
+          Сongratulations! You have added the book to the shopping list. To
+          delete, press the button “Remove from the shopping list”.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

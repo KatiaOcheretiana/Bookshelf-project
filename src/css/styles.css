@@ -1,0 +1,126 @@
+@import url(./fonts.css);
+
+@import url(./reset.css);
+
+@import url(./root.css);
+
+@import url(./basket.css);
+
+@import url(./books.css);
+
+@import url(./category.css);
+
+@import url(./header.css);
+
+@import url(./modal.css);
+
+@import url(./support-ukraine.css);
+
+@import url(./btn-scroll.css);
+
+@media screen and (min-width: 768px) {
+  .category-and-support {
+    margin-top: 112px;
+    margin-bottom: 0;
+    display: flex;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .category-and-support {
+    margin-top: 0;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+  .all-home-content {
+    display: flex;
+    max-width: 1440px;
+    margin-right: 0;
+    /* max-width: 1440px; */
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
+    margin-top: 112px;
+  }
+}
+
+.support-and-busket-container .fonds-container {
+  display: none;
+}
+.shopping-list-section {
+  margin-top: 104px;
+}
+.shopping-container {
+  padding-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .shopping-list-section {
+    margin-top: 112px;
+  }
+  .fonds-container {
+    margin: 0;
+    width: 335px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .support-and-busket-container .fonds-container {
+    display: block;
+  }
+  .fonds-container {
+    margin: 0;
+    width: 356px;
+  }
+  .shopping-list-section {
+    margin-top: 0;
+  }
+
+  .support-and-busket-container {
+    display: flex;
+    gap: 40px;
+
+    max-width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
+    margin-top: 112px;
+  }
+  .shopping-container {
+    min-width: 900px;
+    padding: 0;
+  }
+  .header {
+    min-width: 1440px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .support-and-busket-container .fonds-container {
+    display: block;
+  }
+  .fonds-container {
+    margin: 0;
+    width: 356px;
+  }
+  .shopping-list-section {
+    margin-top: 0;
+  }
+
+  .support-and-busket-container {
+    display: flex;
+    gap: 40px;
+
+    max-width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
+    margin-top: 112px;
+  }
+  .shopping-container {
+    max-width: 996px;
+  }
+}
